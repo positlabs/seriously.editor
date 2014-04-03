@@ -1,0 +1,31 @@
+{
+  "name": "seriously.editor",
+  "version": "0.0.1",
+  "homepage": "https://github.com/positlabs/seriously.editor",
+  "authors": [
+    "Joshua Beckwith <josh.beckwith@gmail.com>"
+  ],
+  "description": "node graph editor for Seriously.js",
+  "keywords": [
+    "webgl",
+    "node",
+    "editor"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/bower/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "~3.0.1",
+    "requirejs": "~2.1.11",
+    "lesshat": "~2.0.15",
+    "ox": "git@github.com:positlabs/ox.git",
+    "Seriously.js": "git@github.com:brianchirls/Seriously.js.git",
+    "underscore": "~1.6.0"
+  }
+}
