@@ -15,3 +15,12 @@
   top: 0;
   background: #333;
 }
+#editor #node-graph svg .node.selected {
+  stroke: cyan;
+}
+#editor #node-graph svg .node.hover {
+  stroke: blue;
+}
+#editor #node-graph svg .node .terminal:hover {
+  fill: cyan;
+}

@@ -1,4 +1,4 @@
-@import url('../bower/lesshat/build/lesshat.less');
+//@import url('../bower/lesshat/build/lesshat.less');
 @import url('../bower/normalize-css/normalize.css');
 
 #editor{
@@ -18,6 +18,21 @@
 	}
 
 	#node-graph{
+
+		svg{
+			.node{
+				&.selected{
+					stroke:cyan;
+				}
+				&.hover{
+					stroke:blue;
+				}
+				.terminal:hover{
+					fill:cyan;
+				}
+			}
+		}
+
 	}
 
 }
