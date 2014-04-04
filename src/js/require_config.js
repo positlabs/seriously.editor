@@ -6,7 +6,9 @@ require.config({
 
 		seriously:'../bower/Seriously.js/seriously',
 		'seriously.effects':'../bower/Seriously.js/effects/',
-		'seriously.sources':'../bower/Seriously.js/sources/'
+		'seriously.sources':'../bower/Seriously.js/sources/',
+
+		'Snap':'../bower/Snap.svg/dist/snap.svg'
 
 	},
 	shim:{
