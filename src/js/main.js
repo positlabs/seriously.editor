@@ -4,7 +4,6 @@ define(["require_config"], function () {
 
 	require([
 		'Editor',
-		'ox',
 		'underscore',
 		'Snap'
 	], function (Editor) {

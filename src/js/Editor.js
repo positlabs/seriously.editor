@@ -18,15 +18,14 @@ define(function (require) {
 	function Editor(){
 
 		var nodePicker = new NodePicker();
-		var graph = new NodeGraph(ox('#node-graph'));
-		var optionsPanel = new OptionsPanel(ox('#options-panel'));
+		var graph = new NodeGraph(document.querySelector('#node-graph'));
+		var optionsPanel = new OptionsPanel(document.querySelector('#options-panel'));
 
 		graph.on('selectNode', function(node){
 			optionsPanel.setNode(node);
 		});
 
 		seriously.go();
-
 
 	}
 

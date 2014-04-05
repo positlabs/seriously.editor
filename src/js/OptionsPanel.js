@@ -2,7 +2,7 @@ define(function (require) {
 
 	function OptionsPanel(container){
 
-		this.canvas = ox.create('canvas');
+		this.canvas = document.createElement('canvas');
 		this.canvas.width = container.offsetWidth;
 		this.canvas.height = container.offsetHeight;
 
